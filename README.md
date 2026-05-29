@@ -59,8 +59,9 @@ class Ariel {
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-git-masteroreg-anuraghazra1.vercel.app/api username=arielwijayasaputra&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats-git-masteroreg-anuraghazra1.vercel.app/api/top-langs username=arielwijayasaputra&layout=compact&theme=tokyonight&hide_border=true" />
+![Followers](https://img.shields.io/github/followers/arielwijayasaputra?style=for-the-badge&color=6366f1&labelColor=1a1a2e&logo=github&label=Followers)
+![Stars](https://img.shields.io/github/stars/arielwijayasaputra?style=for-the-badge&color=f59e0b&labelColor=1a1a2e&logo=github&label=Total+Stars)
+![Repos](https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=10b981&labelColor=1a1a2e&logo=github&label=Public+Repos&query=public_repos&url=https://api.github.com/users/arielwijayasaputra)
 
 </div>
 
