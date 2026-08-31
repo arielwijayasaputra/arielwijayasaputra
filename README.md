@@ -30,9 +30,11 @@
 
 ```yaml
 Name       : "Ariel Wijaya Saputra"
+Birthdate  : "17 August 2009"
 Role       : "Frontend & Backend Dev"
-Location   : "Tulungagung, Jawa Timur, Indonesia"
+Major      : "Rekayasa Perangkat Lunak (RPL)"
 Education  : "SMK Negeri 1 Boyolangu"
+Location   : "Tulungagung, Jawa Timur, Indonesia"
 Hobbies    : ["Coding", "Gaming", "Listening Music"]
 ```
 
