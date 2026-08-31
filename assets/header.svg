@@ -20,113 +20,46 @@
 
   <style>
     @keyframes glitch {
-      0% {
+      0%, 100% {
         transform: translate(0);
         text-shadow: -2px 0 #00f0ff, 2px 0 #0077b6;
-        clip-path: inset(0 0 0 0);
       }
       15% {
         transform: translate(-3px, 1px);
         text-shadow: 3px -1px #00f0ff, -3px 1px #48cae4;
-        clip-path: inset(10% 0 60% 0);
       }
       16% {
         transform: translate(2px, -2px);
         text-shadow: -2px 2px #0077b6, 2px -1px #90e0ef;
-        clip-path: inset(40% 0 20% 0);
       }
-      18% {
+      18%, 45% {
         transform: translate(0);
         text-shadow: 0 0 #00f0ff;
-        clip-path: inset(0 0 0 0);
-      }
-      45% {
-        transform: translate(0);
-        text-shadow: -1px 0 #00f0ff, 1px 0 #0077b6;
-        clip-path: inset(0 0 0 0);
       }
       47% {
         transform: translate(-2px, 2px);
         text-shadow: -3px 0 #00f0ff, 3px 0 #48cae4;
-        clip-path: inset(25% 0 50% 0);
       }
       49% {
         transform: translate(3px, -1px);
         text-shadow: 2px -2px #0077b6, -2px 1px #90e0ef;
-        clip-path: inset(65% 0 10% 0);
       }
-      51% {
+      51%, 80% {
         transform: translate(0);
         text-shadow: 0 0 #00f0ff;
-        clip-path: inset(0 0 0 0);
-      }
-      80% {
-        transform: translate(0);
-        text-shadow: -2px 0 #00f0ff, 2px 0 #0077b6;
-        clip-path: inset(0 0 0 0);
       }
       82% {
         transform: translate(2px, 1px);
         text-shadow: 3px 1px #00f0ff, -3px -1px #0077b6;
-        clip-path: inset(5% 0 75% 0);
       }
       84% {
         transform: translate(-2px, -1px);
         text-shadow: -2px 1px #48cae4, 2px -1px #90e0ef;
-        clip-path: inset(50% 0 30% 0);
       }
       86% {
         transform: translate(0);
         text-shadow: 0 0 #00f0ff;
-        clip-path: inset(0 0 0 0);
       }
-      100% {
-        transform: translate(0);
-        text-shadow: -2px 0 #00f0ff, 2px 0 #0077b6;
-        clip-path: inset(0 0 0 0);
-      }
-    }
-
-    /* Dynamic text cycling */
-    @keyframes cycleText1 {
-      0% { opacity: 0; transform: translateY(4px); }
-      3% { opacity: 1; transform: translateY(0); }
-      22% { opacity: 1; transform: translateY(0); }
-      25% { opacity: 0; transform: translateY(-4px); }
-      100% { opacity: 0; }
-    }
-
-    @keyframes cycleText2 {
-      0%, 25% { opacity: 0; transform: translateY(4px); }
-      28% { opacity: 1; transform: translateY(0); }
-      47% { opacity: 1; transform: translateY(0); }
-      50% { opacity: 0; transform: translateY(-4px); }
-      100% { opacity: 0; }
-    }
-
-    @keyframes cycleText3 {
-      0%, 50% { opacity: 0; transform: translateY(4px); }
-      53% { opacity: 1; transform: translateY(0); }
-      72% { opacity: 1; transform: translateY(0); }
-      75% { opacity: 0; transform: translateY(-4px); }
-      100% { opacity: 0; }
-    }
-
-    @keyframes cycleText4 {
-      0%, 75% { opacity: 0; transform: translateY(4px); }
-      78% { opacity: 1; transform: translateY(0); }
-      97% { opacity: 1; transform: translateY(0); }
-      100% { opacity: 0; transform: translateY(-4px); }
-    }
-
-    @keyframes blink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
-    }
-
-    @keyframes pulseGlow {
-      0%, 100% { opacity: 0.3; }
-      50% { opacity: 0.6; }
     }
 
     .main-text {
@@ -139,25 +72,11 @@
     }
 
     .sub-role {
-      font-family: "Fira Code", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
-      font-weight: 600;
-      font-size: 18px;
-      letter-spacing: 3px;
+      font-family: "Courier New", Courier, monospace;
+      font-weight: 700;
+      font-size: 19px;
+      letter-spacing: 2px;
       fill: #00f0ff;
-    }
-
-    .role-1 { animation: cycleText1 12s infinite ease-in-out; }
-    .role-2 { animation: cycleText2 12s infinite ease-in-out; }
-    .role-3 { animation: cycleText3 12s infinite ease-in-out; }
-    .role-4 { animation: cycleText4 12s infinite ease-in-out; }
-
-    .cursor {
-      animation: blink 0.8s infinite;
-      fill: #00b4d8;
-    }
-
-    .border-glow {
-      animation: pulseGlow 4s infinite ease-in-out;
     }
   </style>
 
@@ -166,7 +85,7 @@
   <rect width="100%" height="100%" rx="12" fill="url(#cyberGrid)" />
 
   <!-- Cyber border accents -->
-  <rect x="1" y="1" width="852" height="198" rx="11" fill="none" stroke="#00b4d8" stroke-width="1.2" class="border-glow" />
+  <rect x="1" y="1" width="852" height="198" rx="11" fill="none" stroke="#00b4d8" stroke-width="1.2" opacity="0.5" />
   
   <!-- Corner Accents -->
   <path d="M 15 35 L 15 15 L 35 15" fill="none" stroke="#00f0ff" stroke-width="2.5" />
@@ -183,11 +102,34 @@
     <text class="main-text" text-anchor="middle">ARIEL WIJAYA SAPUTRA</text>
   </g>
 
-  <!-- Dynamic Animated Roles -->
+  <!-- Dynamic Animated Roles using Native SMIL SVG (Guaranteed to animate on GitHub) -->
   <g transform="translate(427, 140)">
-    <text class="sub-role role-1" text-anchor="middle">&gt; Frontend &amp; Backend Developer _</text>
-    <text class="sub-role role-2" text-anchor="middle">&gt; SMK Negeri 1 Boyolangu _</text>
-    <text class="sub-role role-3" text-anchor="middle">&gt; Passionate Problem Solver _</text>
-    <text class="sub-role role-4" text-anchor="middle">&gt; Always Learning, Always Growing _</text>
+    <!-- Role 1: Frontend & Backend Developer -->
+    <text class="sub-role" text-anchor="middle" opacity="1">
+      &gt; Frontend &amp; Backend Developer _
+      <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;0;1" keyTimes="0;0.22;0.25;0.5;0.75;0.9;0.97;0.98;0.99;1" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="visibility" values="visible;visible;hidden;hidden;hidden;hidden;hidden;hidden;hidden;visible" keyTimes="0;0.22;0.25;0.5;0.75;0.9;0.97;0.98;0.99;1" dur="12s" repeatCount="indefinite" />
+    </text>
+
+    <!-- Role 2: SMK Negeri 1 Boyolangu -->
+    <text class="sub-role" text-anchor="middle" opacity="0">
+      &gt; SMK Negeri 1 Boyolangu _
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;0.24;0.26;0.47;0.5;0.75;0.9;0.99;1" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="visibility" values="hidden;hidden;visible;visible;hidden;hidden;hidden;hidden;hidden" keyTimes="0;0.24;0.26;0.47;0.5;0.75;0.9;0.99;1" dur="12s" repeatCount="indefinite" />
+    </text>
+
+    <!-- Role 3: Passionate Problem Solver -->
+    <text class="sub-role" text-anchor="middle" opacity="0">
+      &gt; Passionate Problem Solver _
+      <animate attributeName="opacity" values="0;0;0;1;1;0;0;0;0" keyTimes="0;0.25;0.49;0.51;0.72;0.75;0.85;0.99;1" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="visibility" values="hidden;hidden;hidden;visible;visible;hidden;hidden;hidden;hidden" keyTimes="0;0.25;0.49;0.51;0.72;0.75;0.85;0.99;1" dur="12s" repeatCount="indefinite" />
+    </text>
+
+    <!-- Role 4: Always Learning, Always Growing -->
+    <text class="sub-role" text-anchor="middle" opacity="0">
+      &gt; Always Learning, Always Growing _
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.5;0.74;0.76;0.97;0.99;0.995;1" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="visibility" values="hidden;hidden;hidden;hidden;visible;visible;hidden;hidden" keyTimes="0;0.5;0.74;0.76;0.97;0.99;0.995;1" dur="12s" repeatCount="indefinite" />
+    </text>
   </g>
 </svg>
