@@ -32,7 +32,6 @@ Role       : "Frontend & Backend Dev"
 Location   : "Tulungagung, Jawa Timur, Indonesia"
 Education  : "SMK Negeri 1 Boyolangu"
 Hobbies    : ["Coding", "Gaming", "Listening Music"]
-Currently  : "Improving my programming skills"
 ```
 
 > *"Jangan biarkan pencapaian orang lain membuatmu merasa tertinggal. Kita tidak sedang berlomba dengan siapa pun."*
@@ -114,6 +113,18 @@ Currently  : "Improving my programming skills"
 ```
 
 ---
+
+## Currently Learning
+
+```
+Saat ini sedang mempelajari:
+   📌 Pengembangan Web Berbasis Laravel (PHP Framework)
+   📌 Arsitektur MVC dalam Laravel
+   📌 Autentikasi & manajemen session dengan Laravel
+   📌 Integrasi database menggunakan Eloquent ORM
+   📌 RESTful API menggunakan Laravel
+```
+
 
 ## Contribution Activity
 
