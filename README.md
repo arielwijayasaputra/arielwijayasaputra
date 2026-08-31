@@ -76,8 +76,8 @@ Hobbies    : ["Coding", "Gaming", "Listening Music"]
 
 ### Operating System
 <p>
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Windows_11-0078D6?style=for-the-badge&logo=windows11&logoColor=white" />
+  <img src="https://img.shields.io/badge/CachyOS_(Linux)-00A389?style=for-the-badge&logo=linux&logoColor=white" />
 </p>
 
 </div>
