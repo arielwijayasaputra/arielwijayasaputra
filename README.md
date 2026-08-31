@@ -76,7 +76,7 @@ Hobbies    : ["Coding", "Gaming", "Listening Music"]
 
 ### Operating System
 <p>
-  <img src="https://img.shields.io/badge/Windows_11-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  <img src="https://custom-icon-badges.demolab.com/badge/Windows_11-0078D6?style=for-the-badge&logo=windows11&logoColor=white" />
   <img src="https://img.shields.io/badge/CachyOS_(Linux)-00A389?style=for-the-badge&logo=linux&logoColor=white" />
 </p>
 
@@ -91,7 +91,7 @@ Hobbies    : ["Coding", "Gaming", "Listening Music"]
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=arielwijayasaputra&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00b4d8&icon_color=90e0ef&text_color=ffffff" />
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arielwijayasaputra&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=ffffff" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=arielwijayasaputra&theme=tokyonight&hide_border=true&background=0d1117&stroke=00b4d8&ring=90e0ef&fire=48cae4&currStreakLabel=00b4d8" width="70%" />
+<img src="https://streak-stats.demolab.com/?user=arielwijayasaputra&theme=tokyonight&hide_border=true&background=0d1117&stroke=00b4d8&ring=90e0ef&fire=48cae4&currStreakLabel=00b4d8" width="70%" />
 
 </div>
 
@@ -101,12 +101,12 @@ Hobbies    : ["Coding", "Gaming", "Listening Music"]
 
 ```
 2026 Goals:
-   ✦ Meningkatkan kemampuan Frontend Development (React, Tailwind)
-   ✦ Memperdalam skill Backend (Node.js, REST API, Database)
-   ✦ Membangun proyek portofolio pertama yang siap ditampilkan
-   ✦ Memahami konsep Full Stack Development secara menyeluruh
-   ✦ Mulai berkontribusi ke komunitas open source
-   ✦ Konsisten coding setiap hari
+   - Memperdalam kemampuan Frontend (HTML5, CSS3, Modern JavaScript)
+   - Menguasai Framework Laravel & Arsitektur MVC secara mendalam
+   - Mahir merancang RESTful API dan manajemen database MySQL
+   - Membangun proyek portofolio web nyata yang fungsional
+   - Mulai berkontribusi ke komunitas open source
+   - Konsisten coding dan eksplorasi teknologi baru setiap hari
 ```
 
 ---
