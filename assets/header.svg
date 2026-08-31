@@ -16,6 +16,12 @@
     <pattern id="cyberGrid" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00b4d8" stroke-width="0.5" stroke-opacity="0.15" />
     </pattern>
+
+    <!-- Glitch background glow -->
+    <radialGradient id="glitchGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0" />
+    </radialGradient>
   </defs>
 
   <style>
@@ -80,12 +86,61 @@
     }
   </style>
 
-  <!-- Background -->
+  <!-- 1. Base Background -->
   <rect width="100%" height="100%" rx="12" fill="url(#bgGrad)" />
-  <rect width="100%" height="100%" rx="12" fill="url(#cyberGrid)" />
 
-  <!-- Cyber border accents -->
-  <rect x="1" y="1" width="852" height="198" rx="11" fill="none" stroke="#00b4d8" stroke-width="1.2" opacity="0.5" />
+  <!-- 2. Cyber Grid with Glitch Jitter Effect -->
+  <g>
+    <rect width="100%" height="100%" rx="12" fill="url(#cyberGrid)" />
+    <!-- Background glitch jitter using native SMIL -->
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; 0,0; -3,0; 2,-1; 0,0; 0,0; 3,1; -2,0; 0,0; 0,0"
+      keyTimes="0; 0.21; 0.22; 0.23; 0.24; 0.71; 0.72; 0.73; 0.74; 1"
+      dur="3.8s" repeatCount="indefinite" />
+  </g>
+
+  <!-- 3. Ambient Glitch Radial Glow -->
+  <rect width="100%" height="100%" rx="12" fill="url(#glitchGlow)">
+    <animate attributeName="opacity" values="0.4; 0.8; 0.3; 1; 0.5; 0.4"
+      keyTimes="0; 0.22; 0.24; 0.72; 0.74; 1"
+      dur="3.8s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- 4. Subtle Cyber Scanlines & Glitch Slices -->
+  <!-- Moving Scanline -->
+  <rect x="0" y="0" width="100%" height="2" fill="#00f0ff" opacity="0.1">
+    <animate attributeName="y" values="0; 200; 0" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.05; 0.25; 0.05" dur="4s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Horizontal Glitch Slice Top -->
+  <rect x="0" y="55" width="100%" height="6" fill="#00f0ff" opacity="0">
+    <animate attributeName="opacity" values="0; 0; 0.2; 0; 0; 0.15; 0; 0"
+      keyTimes="0; 0.18; 0.19; 0.21; 0.65; 0.66; 0.68; 1"
+      dur="3.2s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; 0,0; -8,0; 5,0; 0,0; 0,0"
+      keyTimes="0; 0.18; 0.19; 0.21; 0.22; 1"
+      dur="3.2s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Horizontal Glitch Slice Middle -->
+  <rect x="0" y="110" width="100%" height="10" fill="#0077b6" opacity="0">
+    <animate attributeName="opacity" values="0; 0; 0.25; 0; 0; 0.18; 0; 0"
+      keyTimes="0; 0.38; 0.39; 0.41; 0.82; 0.83; 0.85; 1"
+      dur="4.1s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="translate"
+      values="0,0; 0,0; 10,0; -6,0; 0,0; 0,0"
+      keyTimes="0; 0.38; 0.39; 0.41; 0.42; 1"
+      dur="4.1s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- 5. Cyber border accents with micro-pulse -->
+  <rect x="1" y="1" width="852" height="198" rx="11" fill="none" stroke="#00b4d8" stroke-width="1.2">
+    <animate attributeName="stroke-opacity" values="0.3; 0.7; 0.3; 0.9; 0.3"
+      keyTimes="0; 0.22; 0.24; 0.72; 1"
+      dur="3.8s" repeatCount="indefinite" />
+  </rect>
   
   <!-- Corner Accents -->
   <path d="M 15 35 L 15 15 L 35 15" fill="none" stroke="#00f0ff" stroke-width="2.5" />
@@ -93,16 +148,20 @@
   <path d="M 15 165 L 15 185 L 35 185" fill="none" stroke="#00f0ff" stroke-width="2.5" />
   <path d="M 839 165 L 839 185 L 819 185" fill="none" stroke="#00f0ff" stroke-width="2.5" />
 
-  <!-- Top & Bottom glowing line -->
-  <rect x="50" y="12" width="754" height="1.5" fill="url(#cyanLine)" />
-  <rect x="50" y="186" width="754" height="1.5" fill="url(#cyanLine)" />
+  <!-- Top & Bottom glowing line with glitch flash -->
+  <rect x="50" y="12" width="754" height="1.5" fill="url(#cyanLine)">
+    <animate attributeName="opacity" values="0.6; 1; 0.4; 1; 0.6" dur="2.5s" repeatCount="indefinite" />
+  </rect>
+  <rect x="50" y="186" width="754" height="1.5" fill="url(#cyanLine)">
+    <animate attributeName="opacity" values="0.6; 1; 0.4; 1; 0.6" dur="2.5s" repeatCount="indefinite" />
+  </rect>
 
-  <!-- Main Title with Glitch -->
+  <!-- 6. Main Title with Glitch -->
   <g transform="translate(427, 95)">
     <text class="main-text" text-anchor="middle">ARIEL WIJAYA SAPUTRA</text>
   </g>
 
-  <!-- Dynamic Animated Roles using Native SMIL SVG (Guaranteed to animate on GitHub) -->
+  <!-- 7. Dynamic Animated Roles using Native SMIL SVG -->
   <g transform="translate(427, 140)">
     <!-- Role 1: Frontend & Backend Developer -->
     <text class="sub-role" text-anchor="middle" opacity="1">
