@@ -1,115 +1,159 @@
 <div align="center">
 
-```
- █████╗ ██████╗ ██╗███████╗██╗
-██╔══██╗██╔══██╗██║██╔════╝██║
-███████║██████╔╝██║█████╗  ██║
-██╔══██║██╔══██╗██║██╔══╝  ██║
-██║  ██║██║  ██║██║███████╗███████╗
-╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝
-```
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,30:203a43,70:2c5364,100:00b4d8&height=200&section=header&text=ARIEL%20WIJAYA%20SAPUTRA&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Frontend%20%26%20Backend%20Dev%20%7C%20Passionate%20Problem%20Solver&descColor=90e0ef&descAlignY=58&animation=fadeIn" width="100%"/>
 
-# Hey, I'm Ariel Wijaya Saputra 👾
-### Software Developer
+<p>
+  <a href="https://github.com/arielwijayasaputra">
+    <img src="https://img.shields.io/badge/GitHub-arielwijayasaputra-0d1117?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:arielwijayasaputra9@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-00b4d8?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/ariel-wijaya-saputra">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://instagram.com/ariel_wijaya1789">
+    <img src="https://img.shields.io/badge/Instagram-Follow-e1306c?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  <img src="https://img.shields.io/badge/Location-Tulungagung%2C%20Jawa%20Timur%2C%20Indonesia-48cae4?style=for-the-badge" />
+</p>
 
-*Building things for the web — one line at a time.*  
-*Membangun hal-hal untuk web — satu baris dalam satu waktu.*
-
----
-
-</div>
-
-## 🧑‍💻 About Me / Tentang Saya
-
-```php
-<?php
-
-class Ariel {
-    public string $name     = "Ariel Wijaya Saputra";
-    public string $role     = "Software Developer";
-    public string $focus    = "Web Development";
-    public array  $stack    = ["PHP", "JavaScript", "CSS"];
-    public string $status   = "Always building, always learning";
-
-    public function getQuote(): string {
-        return "Code by day, game by night.";
-    }
-}
-```
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<img src="https://komarev.com/ghpvc/?username=arielwijayasaputra&label=Profile%20Views&color=0e75b6&style=flat" />
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## About Me
 
-<div align="center">
-
-![Followers](https://img.shields.io/github/followers/arielwijayasaputra?style=for-the-badge&color=6366f1&labelColor=1a1a2e&logo=github&label=Followers)
-![Stars](https://img.shields.io/github/stars/arielwijayasaputra?style=for-the-badge&color=f59e0b&labelColor=1a1a2e&logo=github&label=Total+Stars)
-![Repos](https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=10b981&labelColor=1a1a2e&logo=github&label=Public+Repos&query=public_repos&url=https://api.github.com/users/arielwijayasaputra)
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=arielwijayasaputra&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 🎮 When I'm Not Coding / Saat Tidak Coding
-
-```
-> Ariel has entered the game...
-> Loading inventory: keyboard, mouse, snacks...
-> Achievement unlocked: "Just One More Game" 🏆
+```yaml
+Name       : "Ariel Wijaya Saputra"
+Role       : "Frontend & Backend Dev"
+Location   : "Tulungagung, Jawa Timur, Indonesia"
+Education  : "SMK Negeri 1 Boyolangu"
+Hobbies    : ["Coding", "Gaming", "Listening Music"]
+Currently  : "Improving my programming skills"
 ```
 
-*Outside of writing code, you'll probably find me deep in a game*
-
-*Di luar nulis kode, kemungkinan besar kamu nemuin aku lagi asik main game*
-
----
-
-## 🌱 Currently / Saat Ini
-
-- 🔨 **Building** — web projects with PHP & JS
-- 📖 **Learning** — always improving my craft
-- 🎯 **Goal** — write clean, meaningful code
+> *"Jangan biarkan pencapaian orang lain membuatmu merasa tertinggal. Kita tidak sedang berlomba dengan siapa pun."*
+>
+> *"Don't let the achievements of others make you feel left behind. We are not in a race with anyone."*
 
 ---
 
-## 📬 Let's Connect / Hubungi Aku
+## Tech Stack & Skills
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arielwijayasaputra)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arielwijayasaputra9@gmail.com)
+### Frontend
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+</p>
+
+### Backend
+<p>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+
+### Database
+<p>
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+</p>
+
+### Tools & Software
+<p>
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" />
+</p>
+
+### Operating System
+<p>
+  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+</p>
 
 </div>
 
 ---
 
+## GitHub Stats
+
 <div align="center">
 
-*"First, solve the problem. Then, write the code."*
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=arielwijayasaputra&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00b4d8&icon_color=90e0ef&text_color=ffffff" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arielwijayasaputra&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=ffffff" />
 
-![Visitor Count](https://komarev.com/ghpvc/?username=arielwijaya&color=6366f1&style=flat-square&label=Profile+Views)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=arielwijayasaputra&theme=tokyonight&hide_border=true&background=0d1117&stroke=00b4d8&ring=90e0ef&fire=48cae4&currStreakLabel=00b4d8" width="70%" />
 
+</div>
+
+---
+
+## Goals 2026
+
+```
+2026 Goals:
+   ✦ Meningkatkan kemampuan Frontend Development (React, Tailwind)
+   ✦ Memperdalam skill Backend (Node.js, REST API, Database)
+   ✦ Membangun proyek portofolio pertama yang siap ditampilkan
+   ✦ Memahami konsep Full Stack Development secara menyeluruh
+   ✦ Mulai berkontribusi ke komunitas open source
+   ✦ Konsisten coding setiap hari
+```
+
+---
+
+## Contribution Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=arielwijayasaputra&theme=tokyo-night&bg_color=0d1117&color=00b4d8&line=90e0ef&point=48cae4&area=true&hide_border=true" width="100%" />
+
+</div>
+
+---
+
+## Quote
+
+<div align="center">
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+
+</div>
+
+---
+
+## Let's Connect
+
+<div align="center">
+<p>
+  <a href="mailto:arielwijayasaputra9@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/ariel-wijaya-saputra">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://instagram.com/ariel_wijaya1789">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+</p>
+</div>
+
+---
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,50:0077b6,100:0f2027&height=120&section=footer" width="100%"/>
+<sub>Feel free to star repositories you find interesting! ⭐</sub>
 </div>
