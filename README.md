@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,30:203a43,70:2c5364,100:00b4d8&height=200&section=header&text=ARIEL%20WIJAYA%20SAPUTRA&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Frontend%20%26%20Backend%20Dev%20%7C%20Passionate%20Problem%20Solver&descColor=90e0ef&descAlignY=58&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,30:203a43,70:2c5364,100:00b4d8&height=180&section=header&text=ARIEL%20WIJAYA%20SAPUTRA&fontSize=48&fontColor=ffffff&fontAlignY=40" width="100%"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00B4D8&center=true&vCenter=true&width=600&lines=Frontend+%26+Backend+Developer;SMK+Negeri+1+Boyolangu;Passionate+Problem+Solver+%F0%9F%9A%80;Always+Learning%2C+Always+Growing+%F0%9F%8C%B1" alt="Typing SVG" />
 
 <p>
   <a href="https://github.com/arielwijayasaputra">
