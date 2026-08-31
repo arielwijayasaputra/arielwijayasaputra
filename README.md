@@ -9,7 +9,7 @@
   <a href="mailto:arielwijayasaputra9@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact%20Me-00b4d8?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/ariel-wijaya-saputra">
+  <a href="https://www.linkedin.com/in/ariel-wijaya-saputra-9a06623a0/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://instagram.com/ariel_wijaya1789">
@@ -153,7 +153,7 @@ Saat ini sedang mempelajari:
   <a href="mailto:arielwijayasaputra9@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/ariel-wijaya-saputra">
+  <a href="https://www.linkedin.com/in/ariel-wijaya-saputra-9a06623a0/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://instagram.com/ariel_wijaya1789">
