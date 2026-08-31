@@ -102,8 +102,8 @@ Hobbies    : ["Coding", "Gaming", "Listening Music"]
 ```
 2026 Goals:
    - Memperdalam kemampuan Frontend (HTML5, CSS3, Modern JavaScript)
-   - Menguasai Framework Laravel
-   - Mahir merancang dan manajemen database MySQL
+   - Menguasai Framework Laravel & Arsitektur MVC secara mendalam
+   - Mahir merancang RESTful API dan manajemen database MySQL
    - Konsisten coding dan eksplorasi teknologi baru setiap hari
 ```
 
@@ -114,10 +114,10 @@ Hobbies    : ["Coding", "Gaming", "Listening Music"]
 ```
 Saat ini sedang mempelajari:
    - Pengembangan Web Berbasis Laravel (PHP Framework)
-   - Arsitektur MVC dalam Laravel
-   - Autentikasi & manajemen session dengan Laravel
-   - Integrasi database menggunakan Eloquent ORM
-   - RESTful API menggunakan Laravel
+   - Penerapan Arsitektur MVC dalam Laravel
+   - Autentikasi & Manajemen Session dengan Laravel
+   - Integrasi Database MySQL Menggunakan Eloquent ORM
+   - Perancangan RESTful API Menggunakan Laravel
 ```
 
 
