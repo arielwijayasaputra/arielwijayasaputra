@@ -132,24 +132,6 @@ Saat ini sedang mempelajari:
 
 ---
 
-## Let's Connect
-
-<div align="center">
-<p>
-  <a href="mailto:arielwijayasaputra9@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/ariel-wijaya-saputra-9a06623a0/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://instagram.com/ariel_wijaya1789">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-</p>
-</div>
-
----
-
 <div align="center">
 <img src="./assets/footer.svg" width="100%"/>
 </div>
