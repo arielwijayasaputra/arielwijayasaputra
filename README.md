@@ -32,7 +32,7 @@
 Name       : "Ariel Wijaya Saputra"
 Birthdate  : "17 August 2009"
 Role       : "Frontend & Backend Dev"
-Major      : "Rekayasa Perangkat Lunak (RPL)"
+Major      : "Software Engineering / Rekayasa Perangkat Lunak (RPL)"
 Education  : "SMK Negeri 1 Boyolangu"
 Location   : "Tulungagung, Jawa Timur, Indonesia"
 Hobbies    : ["Coding", "Gaming", "Listening Music"]
