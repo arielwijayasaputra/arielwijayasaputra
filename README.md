@@ -120,6 +120,15 @@ Saat ini sedang mempelajari:
    - Perancangan RESTful API Menggunakan Laravel
 ```
 
+---
+
+## Contribution Activity
+
+<div align="center">
+
+<img src="./assets/activity-graph.svg" width="100%"/>
+
+</div>
 
 ---
 
