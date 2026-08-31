@@ -87,19 +87,41 @@
       }
     }
 
-    @keyframes glitch-sub {
-      0%, 100% { transform: translate(0); opacity: 0.9; }
-      17% { transform: translate(-2px, 1px); opacity: 0.6; }
-      19% { transform: translate(2px, -1px); opacity: 1; }
-      48% { transform: translate(2px, 1px); opacity: 0.7; }
-      50% { transform: translate(0); opacity: 0.9; }
-      83% { transform: translate(-1px, -1px); opacity: 0.8; }
-      85% { transform: translate(0); opacity: 0.9; }
+    /* Dynamic text cycling */
+    @keyframes cycleText1 {
+      0% { opacity: 0; transform: translateY(4px); }
+      3% { opacity: 1; transform: translateY(0); }
+      22% { opacity: 1; transform: translateY(0); }
+      25% { opacity: 0; transform: translateY(-4px); }
+      100% { opacity: 0; }
     }
 
-    @keyframes scanline {
-      0% { transform: translateY(0); }
-      100% { transform: translateY(200px); }
+    @keyframes cycleText2 {
+      0%, 25% { opacity: 0; transform: translateY(4px); }
+      28% { opacity: 1; transform: translateY(0); }
+      47% { opacity: 1; transform: translateY(0); }
+      50% { opacity: 0; transform: translateY(-4px); }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cycleText3 {
+      0%, 50% { opacity: 0; transform: translateY(4px); }
+      53% { opacity: 1; transform: translateY(0); }
+      72% { opacity: 1; transform: translateY(0); }
+      75% { opacity: 0; transform: translateY(-4px); }
+      100% { opacity: 0; }
+    }
+
+    @keyframes cycleText4 {
+      0%, 75% { opacity: 0; transform: translateY(4px); }
+      78% { opacity: 1; transform: translateY(0); }
+      97% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(-4px); }
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
     }
 
     @keyframes pulseGlow {
@@ -116,13 +138,22 @@
       animation: glitch 3.5s infinite ease-in-out;
     }
 
-    .sub-text {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Courier New", monospace;
-      font-weight: 500;
-      font-size: 17px;
-      letter-spacing: 4px;
+    .sub-role {
+      font-family: "Fira Code", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
+      font-weight: 600;
+      font-size: 18px;
+      letter-spacing: 3px;
+      fill: #00f0ff;
+    }
+
+    .role-1 { animation: cycleText1 12s infinite ease-in-out; }
+    .role-2 { animation: cycleText2 12s infinite ease-in-out; }
+    .role-3 { animation: cycleText3 12s infinite ease-in-out; }
+    .role-4 { animation: cycleText4 12s infinite ease-in-out; }
+
+    .cursor {
+      animation: blink 0.8s infinite;
       fill: #00b4d8;
-      animation: glitch-sub 3.5s infinite ease-in-out;
     }
 
     .border-glow {
@@ -152,8 +183,11 @@
     <text class="main-text" text-anchor="middle">ARIEL WIJAYA SAPUTRA</text>
   </g>
 
-  <!-- Subtitle -->
-  <g transform="translate(427, 138)">
-    <text class="sub-text" text-anchor="middle">FRONTEND &amp; BACKEND DEVELOPER</text>
+  <!-- Dynamic Animated Roles -->
+  <g transform="translate(427, 140)">
+    <text class="sub-role role-1" text-anchor="middle">&gt; Frontend &amp; Backend Developer _</text>
+    <text class="sub-role role-2" text-anchor="middle">&gt; SMK Negeri 1 Boyolangu _</text>
+    <text class="sub-role role-3" text-anchor="middle">&gt; Passionate Problem Solver _</text>
+    <text class="sub-role role-4" text-anchor="middle">&gt; Always Learning, Always Growing _</text>
   </g>
 </svg>
