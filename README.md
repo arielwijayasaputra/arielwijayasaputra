@@ -1,8 +1,7 @@
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,30:203a43,70:2c5364,100:00b4d8&height=180&section=header&text=ARIEL%20WIJAYA%20SAPUTRA&fontSize=48&fontColor=ffffff&fontAlignY=40" width="100%"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00B4D8&center=true&vCenter=true&width=600&lines=Frontend+%26+Backend+Developer;SMK+Negeri+1+Boyolangu;Passionate+Problem+Solver+%F0%9F%9A%80;Always+Learning%2C+Always+Growing+%F0%9F%8C%B1" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00B4D8&center=true&vCenter=true&width=600&lines=Frontend+%26+Backend+Developer;SMK+Negeri+1+Boyolangu;Passionate+Problem+Solver;Always+Learning%2C+Always+Growing" alt="Typing SVG" />
 
 <p>
   <a href="https://github.com/arielwijayasaputra">
@@ -120,11 +119,11 @@ Hobbies    : ["Coding", "Gaming", "Listening Music"]
 
 ```
 Saat ini sedang mempelajari:
-   📌 Pengembangan Web Berbasis Laravel (PHP Framework)
-   📌 Arsitektur MVC dalam Laravel
-   📌 Autentikasi & manajemen session dengan Laravel
-   📌 Integrasi database menggunakan Eloquent ORM
-   📌 RESTful API menggunakan Laravel
+   - Pengembangan Web Berbasis Laravel (PHP Framework)
+   - Arsitektur MVC dalam Laravel
+   - Autentikasi & manajemen session dengan Laravel
+   - Integrasi database menggunakan Eloquent ORM
+   - RESTful API menggunakan Laravel
 ```
 
 
@@ -168,5 +167,5 @@ Saat ini sedang mempelajari:
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,50:0077b6,100:0f2027&height=120&section=footer" width="100%"/>
-<sub>Feel free to star repositories you find interesting! ⭐</sub>
+<sub>Feel free to star repositories you find interesting!</sub>
 </div>
