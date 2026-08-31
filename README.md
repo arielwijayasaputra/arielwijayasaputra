@@ -88,8 +88,8 @@ Hobbies    : ["Coding", "Gaming", "Listening Music"]
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=arielwijayasaputra&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00b4d8&icon_color=90e0ef&text_color=ffffff" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=arielwijayasaputra&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=ffffff" />
+<img height="180em" src="https://github-stats-extended.vercel.app/api?username=arielwijayasaputra&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00b4d8&icon_color=90e0ef&text_color=ffffff" />
+<img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=arielwijayasaputra&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00b4d8&text_color=ffffff" />
 
 <img src="https://streak-stats.demolab.com/?user=arielwijayasaputra&theme=tokyonight&hide_border=true&background=0d1117&stroke=00b4d8&ring=90e0ef&fire=48cae4&currStreakLabel=00b4d8" width="70%" />
 
