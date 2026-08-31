@@ -4,19 +4,19 @@
 
 <p>
   <a href="https://github.com/arielwijayasaputra">
-    <img src="https://img.shields.io/badge/GitHub-arielwijayasaputra-0d1117?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-arielwijayasaputra-00b4d8?style=for-the-badge&logo=github&logoColor=white&labelColor=0a192f" />
   </a>
   <a href="mailto:arielwijayasaputra9@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-00b4d8?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-00b4d8?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a192f" />
   </a>
   <a href="https://www.linkedin.com/in/ariel-wijaya-saputra-9a06623a0/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077b5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a192f" />
   </a>
   <a href="https://instagram.com/ariel_wijaya1789">
-    <img src="https://img.shields.io/badge/Instagram-Follow-e1306c?style=for-the-badge&logo=instagram&logoColor=white" />
+    <img src="https://img.shields.io/badge/Instagram-Follow-e1306c?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0a192f" />
   </a>
   <a href="https://maps.google.com/?q=Tulungagung,+Jawa+Timur,+Indonesia">
-    <img src="https://img.shields.io/badge/Location-Tulungagung%2C%20Jawa%20Timur%2C%20Indonesia-48cae4?style=for-the-badge&logo=googlemaps&logoColor=white" />
+    <img src="https://img.shields.io/badge/Location-Tulungagung%2C%20Jawa%20Timur%2C%20Indonesia-48cae4?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0a192f" />
   </a>
 </p>
 
