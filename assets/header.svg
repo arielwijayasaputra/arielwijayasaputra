@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 200" width="100%" height="200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050d1a" />
+      <stop offset="40%" stop-color="#0a192f" />
+      <stop offset="80%" stop-color="#0f2b48" />
+      <stop offset="100%" stop-color="#00172d" />
+    </linearGradient>
+
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00b4d8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00b4d8" stop-opacity="0" />
+    </linearGradient>
+
+    <pattern id="cyberGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#00b4d8" stroke-width="0.5" stroke-opacity="0.15" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes glitch {
+      0% {
+        transform: translate(0);
+        text-shadow: -2px 0 #00f0ff, 2px 0 #0077b6;
+        clip-path: inset(0 0 0 0);
+      }
+      15% {
+        transform: translate(-3px, 1px);
+        text-shadow: 3px -1px #00f0ff, -3px 1px #48cae4;
+        clip-path: inset(10% 0 60% 0);
+      }
+      16% {
+        transform: translate(2px, -2px);
+        text-shadow: -2px 2px #0077b6, 2px -1px #90e0ef;
+        clip-path: inset(40% 0 20% 0);
+      }
+      18% {
+        transform: translate(0);
+        text-shadow: 0 0 #00f0ff;
+        clip-path: inset(0 0 0 0);
+      }
+      45% {
+        transform: translate(0);
+        text-shadow: -1px 0 #00f0ff, 1px 0 #0077b6;
+        clip-path: inset(0 0 0 0);
+      }
+      47% {
+        transform: translate(-2px, 2px);
+        text-shadow: -3px 0 #00f0ff, 3px 0 #48cae4;
+        clip-path: inset(25% 0 50% 0);
+      }
+      49% {
+        transform: translate(3px, -1px);
+        text-shadow: 2px -2px #0077b6, -2px 1px #90e0ef;
+        clip-path: inset(65% 0 10% 0);
+      }
+      51% {
+        transform: translate(0);
+        text-shadow: 0 0 #00f0ff;
+        clip-path: inset(0 0 0 0);
+      }
+      80% {
+        transform: translate(0);
+        text-shadow: -2px 0 #00f0ff, 2px 0 #0077b6;
+        clip-path: inset(0 0 0 0);
+      }
+      82% {
+        transform: translate(2px, 1px);
+        text-shadow: 3px 1px #00f0ff, -3px -1px #0077b6;
+        clip-path: inset(5% 0 75% 0);
+      }
+      84% {
+        transform: translate(-2px, -1px);
+        text-shadow: -2px 1px #48cae4, 2px -1px #90e0ef;
+        clip-path: inset(50% 0 30% 0);
+      }
+      86% {
+        transform: translate(0);
+        text-shadow: 0 0 #00f0ff;
+        clip-path: inset(0 0 0 0);
+      }
+      100% {
+        transform: translate(0);
+        text-shadow: -2px 0 #00f0ff, 2px 0 #0077b6;
+        clip-path: inset(0 0 0 0);
+      }
+    }
+
+    @keyframes glitch-sub {
+      0%, 100% { transform: translate(0); opacity: 0.9; }
+      17% { transform: translate(-2px, 1px); opacity: 0.6; }
+      19% { transform: translate(2px, -1px); opacity: 1; }
+      48% { transform: translate(2px, 1px); opacity: 0.7; }
+      50% { transform: translate(0); opacity: 0.9; }
+      83% { transform: translate(-1px, -1px); opacity: 0.8; }
+      85% { transform: translate(0); opacity: 0.9; }
+    }
+
+    @keyframes scanline {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(200px); }
+    }
+
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.6; }
+    }
+
+    .main-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-weight: 900;
+      font-size: 38px;
+      letter-spacing: 6px;
+      fill: #ffffff;
+      animation: glitch 3.5s infinite ease-in-out;
+    }
+
+    .sub-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Courier New", monospace;
+      font-weight: 500;
+      font-size: 17px;
+      letter-spacing: 4px;
+      fill: #00b4d8;
+      animation: glitch-sub 3.5s infinite ease-in-out;
+    }
+
+    .border-glow {
+      animation: pulseGlow 4s infinite ease-in-out;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" rx="12" fill="url(#bgGrad)" />
+  <rect width="100%" height="100%" rx="12" fill="url(#cyberGrid)" />
+
+  <!-- Cyber border accents -->
+  <rect x="1" y="1" width="852" height="198" rx="11" fill="none" stroke="#00b4d8" stroke-width="1.2" class="border-glow" />
+  
+  <!-- Corner Accents -->
+  <path d="M 15 35 L 15 15 L 35 15" fill="none" stroke="#00f0ff" stroke-width="2.5" />
+  <path d="M 839 35 L 839 15 L 819 15" fill="none" stroke="#00f0ff" stroke-width="2.5" />
+  <path d="M 15 165 L 15 185 L 35 185" fill="none" stroke="#00f0ff" stroke-width="2.5" />
+  <path d="M 839 165 L 839 185 L 819 185" fill="none" stroke="#00f0ff" stroke-width="2.5" />
+
+  <!-- Top & Bottom glowing line -->
+  <rect x="50" y="12" width="754" height="1.5" fill="url(#cyanLine)" />
+  <rect x="50" y="186" width="754" height="1.5" fill="url(#cyanLine)" />
+
+  <!-- Main Title with Glitch -->
+  <g transform="translate(427, 95)">
+    <text class="main-text" text-anchor="middle">ARIEL WIJAYA SAPUTRA</text>
+  </g>
+
+  <!-- Subtitle -->
+  <g transform="translate(427, 138)">
+    <text class="sub-text" text-anchor="middle">FRONTEND &amp; BACKEND DEVELOPER</text>
+  </g>
+</svg>

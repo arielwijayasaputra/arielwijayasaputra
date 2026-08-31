@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 60" width="100%" height="60">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050d1a" />
+      <stop offset="50%" stop-color="#0a192f" />
+      <stop offset="100%" stop-color="#050d1a" />
+    </linearGradient>
+
+    <linearGradient id="footerCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00b4d8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00b4d8" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" rx="8" fill="url(#footerBg)" />
+  <rect x="30" y="2" width="794" height="1.5" fill="url(#footerCyan)" />
+  <text x="50%" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#90e0ef" text-anchor="middle" letter-spacing="1">Feel free to star repositories you find interesting!</text>
+</svg>

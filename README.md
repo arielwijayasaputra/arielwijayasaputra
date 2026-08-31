@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0f2027,30:203a43,70:2c5364,100:00b4d8&amp;height=200&amp;section=header&amp;text=ARIEL%20WIJAYA%20SAPUTRA&amp;fontSize=46&amp;fontColor=ffffff&amp;fontAlignY=38&amp;desc=Frontend%20%26%20Backend%20Developer&amp;descColor=90e0ef&amp;descAlignY=56&amp;descSize=20" width="100%"/>
+<img src="./assets/header.svg" width="100%"/>
 
 <p>
   <a href="https://github.com/arielwijayasaputra">
@@ -165,6 +165,5 @@ Saat ini sedang mempelajari:
 ---
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4d8,50:0077b6,100:0f2027&height=120&section=footer" width="100%"/>
-<sub>Feel free to star repositories you find interesting!</sub>
+<img src="./assets/footer.svg" width="100%"/>
 </div>
