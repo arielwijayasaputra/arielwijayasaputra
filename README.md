@@ -15,7 +15,9 @@
   <a href="https://instagram.com/ariel_wijaya1789">
     <img src="https://img.shields.io/badge/Instagram-Follow-e1306c?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
-  <img src="https://img.shields.io/badge/Location-Tulungagung%2C%20Jawa%20Timur%2C%20Indonesia-48cae4?style=for-the-badge" />
+  <a href="https://maps.google.com/?q=Tulungagung,+Jawa+Timur,+Indonesia">
+    <img src="https://img.shields.io/badge/Location-Tulungagung%2C%20Jawa%20Timur%2C%20Indonesia-48cae4?style=for-the-badge&logo=googlemaps&logoColor=white" />
+  </a>
 </p>
 
 <img src="https://komarev.com/ghpvc/?username=arielwijayasaputra&label=Profile%20Views&color=0e75b6&style=flat" />
