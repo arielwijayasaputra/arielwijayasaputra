@@ -121,14 +121,6 @@ Saat ini sedang mempelajari:
 ```
 
 
-## Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=arielwijayasaputra&theme=tokyo-night&bg_color=0d1117&color=00b4d8&line=90e0ef&point=48cae4&area=true&hide_border=true" width="100%" />
-
-</div>
-
 ---
 
 ## Quote
